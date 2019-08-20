@@ -4,7 +4,7 @@ import "fmt"
 
 // Category berfungsi untuk mengatur response setelah input data atau saat menampilkan data
 type Category struct {
-	ID   int64  `json:"id"` //json:"id" id adalah nama custom yang ditampilkan di result
+	ID   int64  `json:"id"`
 	Name string `json:"name"`
 }
 

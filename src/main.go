@@ -13,7 +13,7 @@ import (
 
 const (
 	// ListeningPort is the API listerner port
-	ListeningPort = ":6060"
+	ListeningPort = ":60"
 )
 
 func main() {
